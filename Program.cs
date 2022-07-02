@@ -9,7 +9,7 @@ namespace SPAM
 
         static SystemPersonnelAccountingManagement()
         {
-            _employeesCompany = new List<Employee> { new Director(" efferf eref efre g", " ferfefefef  efe rer", "   dfer "), new Worker("ferfeferfe", "ferferegre", "ferfef", "refrefe") };
+            _employeesCompany = new List<Employee> { new Director(" efferf eref efre g", " ferfefefef  efe rer", "   dfer "), new HeadDivision(" efferf eref efre g", " ferfefefef  efe rer", "   dfer ", "wferf f fewwf"), new Worker("ferfeferfe", "ferferegre", "ferfef", "refrefe") };
         }
         public static void Main()
         {
